@@ -24,6 +24,10 @@ public class App2 {
         list.add(new Employee(500,"Vinny",50000));
         list.add(new Employee(600,"Pinny",60000));
         list.add(new Employee(700,"Ginny",70000));
+        list.add(new Employee(800,"Tinny",80000));
+        
+
+
 
 
         Function<Employee,Integer>f=e->{  if(e.salary>25000 && e.salary<45000) 
